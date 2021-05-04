@@ -1,6 +1,7 @@
 class binar {/* calculer deux au n-tième degré
 code original - kaloyansen@gmail.com */
-     private int x, y = 2;
+     private int x;
+     private long y = 2;
      binar(int x) {
           for (int i = 1; i < x; i++) { this.y *= 2; }
           if (x == 0) { this.y = 1; }
