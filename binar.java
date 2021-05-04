@@ -4,7 +4,10 @@ code original - kaloyansen@gmail.com */
      binar(int x) {
           for (int i = 1; i < x; i++) { this.y *= 2; }
           if (x == 0) { this.y = 1; }
-          if (this.y <= 0) { System.out.println("warning this calculation does not work for a value of y greater than thirty\nand so it will definitely not work for a value as high as " + x); }
+          if (this.y <= 0) {
+               System.out.println("warning this calculation does not work for a value of y greater than thirty");
+               System.out.println("and so it will definitely not work for a value as high as " + x);
+          }
           this.x = x;
      }
 
