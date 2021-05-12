@@ -26,7 +26,7 @@ code original - kaloyansen@gmail.com */
                return 0;
           }
           if (arle > 1) { // too many arguments not fatal just warning
-               sop("warning one int argument expected the code ignores any other");
+               sop("warning one whole number is expected as argument\nall additional arguments will be ignored");
           }
           return toint(args[0]);
      }
